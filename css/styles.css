@@ -116,6 +116,7 @@ img {
 }
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .mail {
@@ -216,8 +217,12 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   display: flex;
+
   background: var(--color-cornflower-footer);
   border: 1px solid var(--color-button-white);
+  border-color: ;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-color: var(--color-cornflower-footer);
   border-radius: 4px;
   padding: 12px 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
